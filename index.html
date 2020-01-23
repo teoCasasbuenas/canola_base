@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Numans&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.css'>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Canola</title>
+</head>
+
+<body>
+	<header class="cl-sticky-header cl-flex">
+		<div class="cl-menu--toggle">
+			<button class="cl-menu--toggle--button">
+				<i class="material-icons">
+					menu
+					</i>
+			</button>
+		</div>
+		<h1 class="cl-flex-item">
+			<a class="cl-logo">
+				<img src="assets/logo.png" />
+			</a>
+		</h1>
+		<nav class="cl-flex-item cl-flex-grow1 cl-nav">
+			<ul class="cl-menu cl-flex">
+				<li class="cl-menu--item active">
+					<a href="#">Home</a>
+				</li>
+				<li class="cl-menu--item">
+					<a href="#">Productos</a>
+				</li>
+				<li class="cl-menu--item">
+					<a href="#">Recetas</a>
+				</li>
+				<li class="cl-menu--item">
+					<a href="#">Sabor & <br>saber</a>
+				</li>
+				<li class="cl-menu--item">
+					<a href="#">Inspirate</a>
+				</li>
+				<li class="cl-menu--item">
+					<a href="#">Contacto</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="cl-flex-item">
+			<ul class="cl-social cl-flex">
+				<li><a href="http://facebook.com"><img src="assets/fb_w.png" alt="Facebook logo"></a></li>
+				<li><a href="http://instagram.com"><img src="assets/ig_w.png" alt="Instagram logo"></a></li>
+				<li><a href="http://youtube.com"><img src="assets/yt_w.png" alt="Youtube logo"></a></li>
+			</ul>
+		</div>
+		<div class="cl-flex-item cl-corazon">
+			<img src="assets/corazon.png" alt="">
+		</div>
+	</header>
+
+	<div id="fullpage">
+		<section class="section home-main">
+			<div class="slide">
+				<div class="cl-slide">
+					<img src="assets/slide3.png" alt="Imagen 1 del slide">
+					<div class="cl-slide--caption">
+						<p>Mi corazón me dice que los sueños se cumplen cuando estás despierto</p>
+					</div>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="cl-slide">
+					<img src="assets/slide3.png" alt="Imagen 1 del slide">
+					<div class="cl-slide--caption">
+						<p>Mi corazón me dice que los sueños se cumplen cuando estás despierto</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section cl-slide">
+			<div class="slide">
+				<img src="assets/slide4.png" alt="Imagen 1">
+			</div>
+			<div class="slide">
+				<img src="assets/slide4.png" alt="Imagen 1">
+			</div>
+		</section>
+		<div class="section fp-auto-height" style="height: 200px!important;">
+			<footer class="cl-footer cl-flex">
+				<h1 class="cl-flex-item">
+					<a class="cl-logo">
+						<img src="assets/logo_blue.png" />
+					</a>
+				</h1>
+				<nav class="cl-flex-item cl-flex-grow1 cl-nav">
+					<ul class="cl-menu cl-flex">
+						<li class="cl-menu--item active">
+							<a href="#">Home</a>
+						</li>
+						<li class="cl-menu--item">
+							<a href="#">Productos</a>
+						</li>
+						<li class="cl-menu--item">
+							<a href="#">Recetas</a>
+						</li>
+						<li class="cl-menu--item">
+							<a href="#">Sabor & <br>saber</a>
+						</li>
+						<li class="cl-menu--item">
+							<a href="#">Inspirate</a>
+						</li>
+						<li class="cl-menu--item">
+							<a href="#">Contacto</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="cl-flex-item">
+					<ul class="cl-social cl-flex">
+						<li><a href="http://facebook.com"><img src="assets/fb_b.png" alt="Facebook logo"></a></li>
+						<li><a href="http://instagram.com"><img src="assets/ig_b.png" alt="Instagram logo"></a></li>
+						<li><a href="http://youtube.com"><img src="assets/yt_b.png" alt="Youtube logo"></a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+
+	<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script> -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.extensions.min.js'></script>
+	<script>
+		new fullpage('#fullpage', {
+			//options here
+			autoScrolling: true,
+			scrollHorizontally: true,
+			showActiveTooltip: true,
+			showActiveTooltip: false,
+			slidesNavigation: true,
+			slidesNavPosition: 'bottom',
+			parallax: true
+		});
+
+		//methods
+	</script>
+	<style>.fp-slidesNav.fb-bottom {
+		left: 50%;
+		top: 60%;
+		-webkit-transform: translateX(-50%);
+						transform: translateX(-50%);
+	}</style>
+</body>
+
+</html>
